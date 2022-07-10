@@ -9,7 +9,7 @@
 
 body {
   background-color: black;
-  color: var(--dark-blue);
+  color: black;
   font-family: 'Noto Serif', Verdana, serif;
 }
 
@@ -25,4 +25,8 @@ a {
 
 a:hover {
   color: var(--green);
+}
+
+h1 {
+  color: var(--dark-blue);
 }

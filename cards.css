@@ -1,0 +1,14 @@
+:root {
+  --dark-blue: #0a2463;
+  --background-white: rgb(255, 255, 255, 0.7);
+}
+
+.card {
+  padding: 4em;
+
+  border: 2px var(--dark-blue) solid;
+  background-color: var(--background-white);
+}
+
+#home {
+}

@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
 body {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
+  font-family: 'Noto Serif', Verdana, serif;
 }

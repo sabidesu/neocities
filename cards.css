@@ -15,3 +15,21 @@
   margin-left: 4em;
   margin-right: 4em;
 }
+
+#navbar {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 4em;
+  margin-right: 4em;
+
+  padding-left: 1em;
+  padding-right: 1em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navbar li {
+  display: inline;
+}

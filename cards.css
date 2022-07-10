@@ -1,6 +1,6 @@
 :root {
   --dark-blue: #0a2463;
-  --background-white: rgb(255, 255, 255, 0.7);
+  --background-white: rgb(255, 255, 255, 0.6);
   --green: #3aafb9;
   --dark-green: #093a3e;
 }
@@ -12,8 +12,22 @@
 
 #home {
   padding: 4em;
+  padding-top: 3em;
   margin-left: 4em;
   margin-right: 4em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#home img {
+  width: 30vw;
+  height: 30vw;
+
+  margin-top: -4em;
+  margin-bottom: -4em;
+  margin-right: -3em;
 }
 
 #navbar {

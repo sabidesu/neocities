@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
+:root {
+  --dark-blue: #0a2463;
+  --background-white: rgb(255, 255, 255, 0.7);
+  --green: #3aafb9;
+  --dark-green: #093a3e;
+}
+
 body {
   background-color: black;
-  color: white;
+  color: var(--dark-blue);
   font-family: 'Noto Serif', Verdana, serif;
+}
+
+p {
+  font-size: 1.25em;
 }
